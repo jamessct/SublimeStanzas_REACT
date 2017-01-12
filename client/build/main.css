@@ -1,3 +1,29 @@
+@import url('http://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('http://fonts.googleapis.com/css?family=Inconsolata');
+
 body {
   background-color: #E0E3DA;
+}
+
+#heading {
+  background-image: url('http://imanada.com/daut/as/f/6/641-black-white-hd-wallpapers-backgrounds-wallpaper-abyss-background-id82243-2560x1600-photography-6-like_black-and-white-landscape-professional-photography-backdrops_home-decor_home-decor-liquidators.jpg');
+  background-position: center;
+  font-family: 'Permanent Marker';
+  font-size: 30px;
+  color: #383A3F;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 50%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+}
+
+#tagline {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
 }
