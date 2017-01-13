@@ -29,9 +29,10 @@ var RandmomiserButton = React.createClass({
   render: function() {
     return(
       <div>
-        <button id="NewQuote" onClick={this.newQuote}>New Quote</button>
-        <div id="output"></div>
-        <Quote 
+        <div id="button">
+          <button id="NewQuote" onClick={this.newQuote}>discover</button>
+        </div>
+        <Quote id="wtf"
           randomisedArray={this.props.randomisedArray}
           quoteVisibility={this.state.quoteVisibility}></Quote>
       </div>

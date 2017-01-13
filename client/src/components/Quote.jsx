@@ -14,7 +14,7 @@ var Quote = React.createClass({
     var randomQuote = this.props.randomisedArray[0];
     if(this.props.quoteVisibility === true) {
       return(
-        <div>
+        <div id="output">
           <p>"{randomQuote.quote}"</p>
           <p>-Taken from <i>{randomQuote.source}</i>, by <b>{randomQuote.author}</b>.</p>
         </div>

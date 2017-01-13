@@ -21547,12 +21547,15 @@
 	      'div',
 	      null,
 	      React.createElement(
-	        'button',
-	        { id: 'NewQuote', onClick: this.newQuote },
-	        'New Quote'
+	        'div',
+	        { id: 'button' },
+	        React.createElement(
+	          'button',
+	          { id: 'NewQuote', onClick: this.newQuote },
+	          'discover'
+	        )
 	      ),
-	      React.createElement('div', { id: 'output' }),
-	      React.createElement(Quote, {
+	      React.createElement(Quote, { id: 'wtf',
 	        randomisedArray: this.props.randomisedArray,
 	        quoteVisibility: this.state.quoteVisibility })
 	    );
@@ -21586,7 +21589,7 @@
 	    if (this.props.quoteVisibility === true) {
 	      return React.createElement(
 	        'div',
-	        null,
+	        { id: 'output' },
 	        React.createElement(
 	          'p',
 	          null,

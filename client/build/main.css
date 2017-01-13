@@ -1,5 +1,6 @@
-@import url('http://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('http://fonts.googleapis.com/css?family=Cinzel');
+@import url('http://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('http://fonts.googleapis.com/css?family=Noto+Serif');
 
 body {
   background-color: #333030;
@@ -9,7 +10,7 @@ body {
   background-image: url('http://imanada.com/daut/as/f/6/641-black-white-hd-wallpapers-backgrounds-wallpaper-abyss-background-id82243-2560x1600-photography-6-like_black-and-white-landscape-professional-photography-backdrops_home-decor_home-decor-liquidators.jpg');
   background-position: center;
   font-family: 'Cinzel';
-  font-size: 50px;
+  font-size: 55px;
   color: #333030;
   position: absolute;
   top: 0px;
@@ -23,8 +24,41 @@ body {
 }
 
 #tagline {
-  margin-top: 175px;
+  font-family: 'Cinzel';
+  font-size: 13.5px;
+  margin-top: 207px;
   display: flex;
   justify-content: center;
   color: #333030;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+}
+
+#NewQuote {
+  background-color: #333030;
+  color: #C5C6B6; 
+  border: 2px solid #C5C6B6;
+  font-family: 'Gloria Hallelujah';
+  font-size: 18px;
+  border-radius: 30%;
+  width: 140px;
+  height: 70px;
+}
+
+#output {
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  height: 70px;
+  width: 900px;
+  margin-left: 60px;
+}
+
+p {
+  font-family: 'Noto Serif';
+  font-size: 25px;
+  color: #f8ecc9;
 }
