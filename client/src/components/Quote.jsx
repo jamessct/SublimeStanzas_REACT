@@ -10,7 +10,6 @@ var Quote = React.createClass({
   },
 
   render: function() {
-    console.log("hello");
     var randomQuote = this.props.randomisedArray[0];
     if(this.props.quoteVisibility === true) {
       return(

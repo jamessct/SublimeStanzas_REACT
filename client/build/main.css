@@ -8,7 +8,7 @@ body {
 
 #heading {
   background-image: url('http://imanada.com/daut/as/f/6/641-black-white-hd-wallpapers-backgrounds-wallpaper-abyss-background-id82243-2560x1600-photography-6-like_black-and-white-landscape-professional-photography-backdrops_home-decor_home-decor-liquidators.jpg');
-  background-position: center;
+  background-position: 0px -420px;
   font-family: 'Cinzel';
   font-size: 55px;
   color: #333030;
@@ -31,7 +31,7 @@ h1 {
 
 #tagline {
   font-family: 'Cinzel';
-  font-size: 13.5px;
+  font-size: 14px;
   margin-top: 180px;
   display: flex;
   justify-content: center;
@@ -57,6 +57,7 @@ h1 {
 
 #NewQuote:hover {
   color: #ede574;
+  border: 1px solid #ede574;
 }
 
 #output {
@@ -65,7 +66,7 @@ h1 {
   margin-top: 90px;
   height: 70px;
   width: 900px;
-  margin-left: 60px;
+  margin-left: 80px;
 }
 
 p {

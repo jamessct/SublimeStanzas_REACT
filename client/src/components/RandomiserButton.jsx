@@ -23,7 +23,6 @@ var RandmomiserButton = React.createClass({
     var randomNumber = randomObject.id;
     this.setState({quoteVisibility: true});
     this.setState({reset: this.props.randomNumber});
-    console.log(this.state.reset)
   },
 
   render: function() {
